@@ -28,7 +28,7 @@ namespace folly {
 namespace detail {
 
 extern int cplus_demangle_v3_callback_wrapper(
-    char const* mangled,
+    char const* const mangled,
     void (*cbref)(char const*, std::size_t, void*),
     void* opaque);
 
